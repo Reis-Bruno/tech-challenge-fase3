@@ -1,0 +1,4 @@
+accuracy,precision,recall,f1,roc_auc,modelo,melhores_parametros,f1_cv_treino_2023
+0.7173,0.8081,0.4569,0.5838,0.8191,logistic_regression,{'classifier__C': 1.0},0.7957
+0.6314,0.6899,0.273,0.3912,0.7822,gradient_boosting,"{'classifier__learning_rate': 0.05, 'classifier__max_depth': 2, 'classifier__n_estimators': 200}",0.9842
+0.5906,0.5684,0.2343,0.3318,0.6117,random_forest,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 200}",0.9827
