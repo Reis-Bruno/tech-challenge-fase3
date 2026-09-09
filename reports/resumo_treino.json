@@ -1,0 +1,27 @@
+{
+  "melhor_modelo": "logistic_regression",
+  "metricas_holdout_2024": {
+    "accuracy": 0.7173,
+    "precision": 0.8081,
+    "recall": 0.4569,
+    "f1": 0.5838,
+    "roc_auc": 0.8191,
+    "modelo": "logistic_regression",
+    "melhores_parametros": {
+      "classifier__C": 1.0
+    },
+    "f1_cv_treino_2023": 0.7957
+  },
+  "matriz_confusao": [
+    [
+      2778,
+      252
+    ],
+    [
+      1261,
+      1061
+    ]
+  ],
+  "n_treino_2023": 5302,
+  "n_holdout_2024": 5352
+}
