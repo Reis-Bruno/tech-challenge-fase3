@@ -1,0 +1,14 @@
+# ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# camadas intermediárias regeneráveis (recriadas por `python -m src.etl.run_pipeline`)
+data/bronze/
+data/silver/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
